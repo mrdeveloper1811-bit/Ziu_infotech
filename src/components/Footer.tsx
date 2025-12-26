@@ -27,14 +27,14 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-cyan-400 flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">Z</span>
-              </div>
-              <span className="font-heading font-bold text-xl">
-                ZIU <span className="gradient-text">Infotech</span>
-              </span>
-            </div>
+            <a href="#home" className="flex flex-col items-start gap-1 mb-4">
+              <img
+                src="/Ziu_Logo.png"
+                alt="ZIU Infotech Logo"
+                className="w-12 h-6"
+              />
+              <span className="text-sm font-medium gradient-text">Infotech</span>
+            </a>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
               Professional IT Solutions company delivering high-quality digital products 
               with creativity, technology, and strategy.
@@ -96,15 +96,15 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 mt-0.5 text-primary" />
-                <span>info@ziuinfotech.com</span>
+                <span>info@ziuinfotech.in</span>
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="w-4 h-4 mt-0.5 text-primary" />
-                <span>+91 XXXXXXXXXX</span>
+                <span>+91 8128166631</span>
               </li>
               <li className="flex items-start gap-2">
                 <Globe className="w-4 h-4 mt-0.5 text-primary" />
-                <span>www.ziuinfotech.com</span>
+                <span>www.ziuinfotech.in</span>
               </li>
             </ul>
           </div>

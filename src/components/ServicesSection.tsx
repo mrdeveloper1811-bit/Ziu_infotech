@@ -113,7 +113,7 @@ const ServicesSection = () => {
         </div>
 
         {/* Bottom Highlight */}
-        <div className="mt-16 glass-card rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+        {/* <div className="mt-16 glass-card rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
               <Zap className="w-6 h-6 text-primary" />
@@ -129,7 +129,7 @@ const ServicesSection = () => {
           >
             Get Free Consultation
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
